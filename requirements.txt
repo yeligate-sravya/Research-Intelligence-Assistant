@@ -1,0 +1,7 @@
+pymupdf
+sentence-transformers
+chromadb 
+transformers 
+torch 
+accelerate
+ollama

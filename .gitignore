@@ -1,0 +1,25 @@
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Generated vector database
+chromaDB/
+chroma_db/
+
+# Research papers and local data
+data/
+*.pdf
+
+# Generated outputs and logs
+logs/
+eval_results/*
+!eval_results/README.md
+
+# Keep source code and dependency files

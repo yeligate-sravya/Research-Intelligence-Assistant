@@ -1,0 +1,75 @@
+[
+  {
+    "id": "Q01",
+    "question": "What problems does RAG solve for LLMs?",
+    "answerable": true,
+    "relevant_sources": [
+      "Research_paper_1.pdf",
+      "Research_paper_2.pdf"
+    ],
+    "relevant_keywords": [
+      "hallucination"
+    ],
+    "answer_keywords": [
+      "hallucination",
+      "external knowledge"
+    ]
+  },
+  {
+    "id": "Q02",
+    "question": "Explain Naive RAG versus Advanced RAG.",
+    "answerable": true,
+    "relevant_sources": [
+      "Research_paper_1.pdf",
+      "Research_paper_6.pdf"
+    ],
+    "relevant_keywords": [
+      "Naive RAG",
+      "Advanced RAG"
+    ],
+    "answer_keywords": [
+      "Naive RAG",
+      "Advanced RAG"
+    ]
+  },
+  {
+    "id": "Q03",
+    "question": "What does Research_paper_1.pdf say about hallucinations?",
+    "answerable": true,
+    "relevant_sources": [
+      "Research_paper_1.pdf"
+    ],
+    "relevant_keywords": [
+      "hallucination"
+    ],
+    "answer_keywords": [
+      "hallucination"
+    ]
+  },
+  {
+    "id": "Q04",
+    "question": "What is the exact number of RAG users worldwide in 2035 according to these papers?",
+    "answerable": false,
+    "relevant_sources": [],
+    "relevant_keywords": [],
+    "answer_keywords": []
+  },
+  {
+    "id": "Q05",
+    "question": "What are the limitations of RAG?",
+    "answerable": true,
+    "relevant_sources": [
+      "Research_paper_1.pdf",
+      "Research_paper_2.pdf",
+      "Research_paper_6.pdf"
+    ],
+    "relevant_keywords": [
+      "limitation",
+      "limitations",
+      "shortcomings"
+    ],
+    "answer_keywords": [
+      "limitations"
+    ]
+  }
+]
