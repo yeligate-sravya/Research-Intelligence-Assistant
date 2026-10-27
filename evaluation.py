@@ -16,10 +16,7 @@ import numpy as np
 from config import EVAL_DIR, Settings
 
 # Prefer the pipeline file used in the latest run; fall back to the conventional name.
-try:
-    from rag_pipeline_updated_fixed import INSUFFICIENT, RAGPipeline, content_words, strip_citations
-except ImportError:
-    from rag_pipeline import INSUFFICIENT, RAGPipeline, content_words, strip_citations
+from rag_pipeline import INSUFFICIENT, RAGPipeline, content_words, strip_citations
 
 
 EVAL_SET = "eval_set_example.json"
